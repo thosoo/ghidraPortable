@@ -1,0 +1,18 @@
+ghidraPortable\App\AppInfo\pac_installer_log.ini
+
+# Ignore App folder
+ghidraPortable\App\ghidra*
+
+# Ignore Data folder
+ghidraPortable\Data
+
+# Ignore Work folder
+Work
+
+# Ignore log
+pac_installer_log.ini
+
+# Ignore installer
+ghidraPortable\Other\Source\PortableApps.comInstaller*
+*.paf.exe
+*.exe

@@ -1,0 +1,22 @@
+The program in this module is released under the GPL 3 license. 
+The files used to create this program include both public domain
+files created by the Ghidra team and 3rd party files with 
+the GPL 3 or GPL 3 compatible license. The license files for each of license used can be found in the
+<installation root>/GPL/licenses.
+
+
+The 3rd party files in this module are as follows:
+
+
+Public Domain:
+
+	buildGdis.gradle
+	extension.properties
+	README.txt
+	settings.gradle
+	data/little.elf
+	data/arm_test1.s
+	data/big.elf
+	src/gdis/c/disasm_1.c
+	src/gdis/c/gdis.h
+

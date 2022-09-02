@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FRONTEND>
+    <TOOL_CONFIG CONFIG_NAME="NO_LONGER_USED">
+        <ICON LOCATION="view_detailed.png" />
+        <TOOL TOOL_NAME="Ghidra: NO ACTIVE PROJECT" INSTANCE_NAME="">
+            <OPTIONS />
+            <PACKAGE NAME="Debugger" />
+            <PACKAGE NAME="Ghidra Core" />
+            <PLUGIN_STATE CLASS="ghidra.plugin.importer.ImporterPlugin">
+                <ARRAY NAME="library search paths" TYPE="string">
+                    <A VALUE="." />
+                    <A VALUE="C:\WINDOWS\SysWOW64" />
+                    <A VALUE="D:\PortableApps\CommonFiles\OpenJDK64\bin" />
+                    <A VALUE="C:\WINDOWS\Sun\Java\bin" />
+                    <A VALUE="C:\WINDOWS\system32" />
+                    <A VALUE="C:\WINDOWS" />
+                    <A VALUE="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin" />
+                    <A VALUE="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp" />
+                    <A VALUE="C:\WINDOWS\System32\Wbem" />
+                    <A VALUE="C:\WINDOWS\System32\WindowsPowerShell\v1.0\" />
+                    <A VALUE="C:\WINDOWS\System32\OpenSSH\" />
+                    <A VALUE="C:\Program Files\Intel\WiFi\bin\" />
+                    <A VALUE="C:\Program Files\Common Files\Intel\WirelessCommon\" />
+                    <A VALUE="C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.0\" />
+                    <A VALUE="C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common" />
+                    <A VALUE="C:\ProgramData\chocolatey\bin" />
+                    <A VALUE="C:\ProgramData\chocolatey\lib\mpv.install\tools" />
+                    <A VALUE="C:\Program Files\Microsoft VS Code\bin" />
+                    <A VALUE="C:\Program Files\Ferro Software\FtpUse" />
+                    <A VALUE="C:\Program Files (x86)\ivi foundation\visa\WinNT\Bin\" />
+                    <A VALUE="C:\Program Files\IVI Foundation\VISA\Win64\Bin\" />
+                    <A VALUE="C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin" />
+                    <A VALUE="C:\Program Files\Git\cmd" />
+                    <A VALUE="C:\Program Files\Pandoc\" />
+                    <A VALUE="C:\Program Files\Go\bin" />
+                    <A VALUE="C:\Program Files\PowerShell\7\" />
+                    <A VALUE="C:\Program Files\TortoiseSVN\bin" />
+                    <A VALUE="c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\" />
+                    <A VALUE="C:\Program Files\dotnet\" />
+                    <A VALUE="C:\Users\thies\AppData\Local\Microsoft\WindowsApps" />
+                    <A VALUE="C:\Users\thies\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts" />
+                    <A VALUE="C:\Users\thies\go\bin" />
+                    <A VALUE="C:\Users\thies\AppData\Local\GitHubDesktop\bin" />
+                </ARRAY>
+            </PLUGIN_STATE>
+            <ROOT_NODE X_POS="560" Y_POS="240" WIDTH="800" HEIGHT="600" EX_STATE="0" FOCUSED_OWNER="FrontEnd Tool" FOCUSED_NAME="FrontEnd" FOCUSED_TITLE="Project Window">
+                <COMPONENT_NODE TOP_INFO="0">
+                    <COMPONENT_INFO NAME="FrontEnd" OWNER="FrontEnd Tool" TITLE="Project Window" ACTIVE="true" GROUP="Default" INSTANCE_ID="3485585522615189851" />
+                </COMPONENT_NODE>
+            </ROOT_NODE>
+            <PREFERENCES>
+                <PREFERENCE_STATE NAME="ghidra.framework.plugintool.dialog.ExtensionTableModel:Installation Status:Name:Description:Version:">
+                    <XML NAME="COLUMN_DATA">
+                        <Table_State>
+                            <COLUMN NAME="ghidra.framework.plugintool.dialog.ExtensionTableModel$ExtensionInstalledColumn.Installation Status" WIDTH="25" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.framework.plugintool.dialog.ExtensionTableModel$ExtensionNameColumn.Name" WIDTH="174" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.framework.plugintool.dialog.ExtensionTableModel$ExtensionDescriptionColumn.Description" WIDTH="324" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.framework.plugintool.dialog.ExtensionTableModel$ExtensionVersionColumn.Version" WIDTH="175" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.framework.plugintool.dialog.ExtensionTableModel$ExtensionInstallationDirColumn.Installation Directory" WIDTH="100" VISIBLE="false" />
+                            <COLUMN NAME="ghidra.framework.plugintool.dialog.ExtensionTableModel$ExtensionArchiveFileColumn.Archive File" WIDTH="100" VISIBLE="false" />
+                            <TABLE_SORT_STATE>
+                                <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="1" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                            </TABLE_SORT_STATE>
+                        </Table_State>
+                    </XML>
+                </PREFERENCE_STATE>
+                <PREFERENCE_STATE NAME="ghidra.framework.main.datatable.ProjectDataTableModel:Type:Name:Path:Modified:Processor:Endian:Address Size:Compiler:Size:Format:">
+                    <XML NAME="COLUMN_DATA">
+                        <Table_State>
+                            <COLUMN NAME="ghidra.framework.main.datatable.ProjectDataTableModel$DomainFileTypeColumn.Type" WIDTH="21" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.framework.main.datatable.ProjectDataTableModel$DomainFileNameColumn.Name" WIDTH="120" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.framework.main.datatable.ProjectDataTableModel$DomainFilePathColumn.Path" WIDTH="121" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.framework.main.datatable.ProjectDataTableModel$ModificationDateColumn.Modified" WIDTH="120" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.ProcessorProjectDataColumn.Processor" WIDTH="64" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.EndianProjectDataColumn.Endian" WIDTH="63" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.AddressSizeProjectDataColumn.Address Size" WIDTH="41" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.CompilerProjectDataColumn.Compiler" WIDTH="63" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.DomainFileSizeProjectDataColumn.Size" WIDTH="75" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.FormatProjectDataColumn.Format" WIDTH="75" VISIBLE="true" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.CreationDateProjectDataColumn.Created" WIDTH="200" VISIBLE="false" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.ExecutablePathProjectDataColumn.Executable Path" WIDTH="60" VISIBLE="false" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.LanguageProjectDataColumn.Language ID" WIDTH="60" VISIBLE="false" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.CreatedWithProjectDataColumn.Created With" WIDTH="100" VISIBLE="false" />
+                            <COLUMN NAME="ghidra.util.table.projectdata.column.Md5ProjectDataColumn.MD5" WIDTH="120" VISIBLE="false" />
+                            <TABLE_SORT_STATE>
+                                <COLUMN_SORT_STATE COLUMN_MODEL_INDEX="0" SORT_DIRECTION="ascending" SORT_ORDER="1" />
+                            </TABLE_SORT_STATE>
+                        </Table_State>
+                    </XML>
+                </PREFERENCE_STATE>
+            </PREFERENCES>
+        </TOOL>
+    </TOOL_CONFIG>
+</FRONTEND>
+
