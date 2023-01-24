@@ -6,7 +6,12 @@ try {
 }
 $repoName = "NationalSecurityAgency/ghidra"
 $releasesUri = "https://api.github.com/repos/$repoName/releases/latest"
-$tag = (Invoke-WebRequest $releasesUri | ConvertFrom-Json).tag_name
+try { $tag = (Invoke-WebRequest $releasesUri | ConvertFrom-Json).tag_name }
+catch {
+  Write-Host "Error while pulling API."
+  echo "SHOULD_COMMIT=no" | Out-File -FilePath $Env:GITHUB_ENV -Encoding utf8 -Append
+  break
+}
 $tag2 = $tag.replace('Ghidra_','') -Replace '_build',''
 Write-Host $tag2
 if ($tag2 -match "alpha")
