@@ -13,7 +13,7 @@ jobs:
 
     steps:
      - name: Checkout Code
-       uses: actions/checkout@v2
+       uses: actions/checkout@v3
        
      - name: Check Versions
        run: pwsh -ExecutionPolicy ByPass -File check-version.ps1
@@ -21,7 +21,7 @@ jobs:
        
      - name: Clone PortableApps.comInstaller
        if: env.SHOULD_BUILD == 'yes'
-       uses: actions/checkout@v2
+       uses: actions/checkout@v3
        with:
         repository: uroesch/PortableApps.comInstaller
         ref: main
@@ -29,7 +29,7 @@ jobs:
 
      - name: Clone PortableApps.comLauncher
        if: env.SHOULD_BUILD == 'yes'
-       uses: actions/checkout@v2
+       uses: actions/checkout@v3
        with:
           repository: uroesch/PortableApps.comLauncher
           ref: patched
