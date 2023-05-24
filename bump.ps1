@@ -51,6 +51,8 @@ else{
 
         $launcher = Get-IniContent ".\ghidraPortable\App\AppInfo\Launcher\ghidraPortable.ini"
         $launcher["Launch"]["ProgramExecutable"]=-join("ghidra_",$tag2,"_PUBLIC\ghidraRun.bat")
+        $launcher["Launch"]["ProgramExecutable64"]=-join("ghidra_",$tag2,"_PUBLIC\ghidraRun.bat")
+
         $launcher | Out-IniFile -Force -Encoding ASCII -FilePath ".\ghidraPortable\App\AppInfo\Launcher\ghidraPortable.ini"
         Write-Host "Bumped to "+$tag2
         echo "SHOULD_COMMIT=yes" | Out-File -FilePath $Env:GITHUB_ENV -Encoding utf8 -Append
