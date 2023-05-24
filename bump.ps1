@@ -40,6 +40,7 @@ else{
 
         $asset1Pattern = "$tag2"
         $asset1 = (Invoke-WebRequest $releasesUri | ConvertFrom-Json).assets | Where-Object name -like $asset1Pattern
+        Write-Host $asset1
         $asset1Download = $asset1.browser_download_url.replace('%2B','+')
         $installer["DownloadFiles"]["DownloadURL"]=$asset1Download
         $installer["DownloadFiles"]["DownloadName"]=$asset1.name.replace('.zip','')
